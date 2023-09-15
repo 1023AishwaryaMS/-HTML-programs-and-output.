@@ -1,0 +1,77 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+        padding: 0px;
+        margin: 0px;
+        }
+
+        .container{
+        height: 1500px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap:wrap-reverse; */
+        /* flex-flow: column wrap-reverse; */
+        justify-content: start;
+        align-items: start;
+       /* align-content: start; */
+       
+    }
+
+        .box{
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    #box1{
+    background-image: url(../pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 200px;
+    max-height: 200px; */
+    order: 500;
+    /* align-self: center; */
+    
+    }
+    #box2{
+    background-image: url(../pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+    }
+    #box3{
+    background-image: url(../pic3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    #box4{
+    background-image: url(../pic4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+
+    </style>
+
+ </head>
+ <body>
+     <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+     </div>
+ </body>
+ </html>
