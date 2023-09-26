@@ -1,0 +1,163 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.container{
+border: 2px solid black;
+padding: 3px;
+margin: 2px;
+height: 1520px;
+display: flex;
+}
+
+.box{
+height: 500px;
+width: 500px;
+border: 1px solid black;
+margin: 2px;}
+
+
+#b1{
+background-image: url(../pic12.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+
+#b2{
+background-image: url(../pic8.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#b3{
+background-image: url(../pic10.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+@media (min-width: 800px){
+.container{
+flex-direction: column;
+} 
+} 
+
+
+@media (max-width: 900px){
+.container{
+flex-direction: row;
+}
+}
+    
+
+
+/* 
+ @media (min-width: 600px) and (max-width: 1200px) {
+    .container{
+    background-color: teal;
+    }
+   
+} */
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    <div class="container">
+         
+        <div class="box" id="b1">box1</div>
+        <div class="box" id="b2">box2</div>
+        <div class="box" id="b3">box3</div>
+    
+    </div>
+    
+</body>
+</html> --> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+        padding: 2px;
+        margin: 2px;
+         height: 1200px;
+        /* width: 200px; */ 
+        background-color: beige;
+        border: 1px black solid;  
+        display: flex; 
+        }
+
+        .dog{
+        border: 1px solid black;
+        }
+
+        .dog1{
+        background-color: rgb(183, 32, 32);
+        padding: 2px;
+        margin: 2px;
+        height: 200px;
+        width: 200px;
+        }
+
+        .dog2{
+        background-color: rgb(183, 32, 32);
+        padding: 2px;
+        margin: 2px;
+        height: 200px;
+        width: 200px;
+        }
+
+        .dog3{
+        background-color: rgb(183, 32, 32);
+        padding: 2px;
+        margin: 2px;
+        height: 200px;
+        width: 200px;
+        }
+
+        /* @media  ( min-width: 600px) and (max-width: 800px){
+        
+            .container{ background-color: teal;}
+            .dog{background-color: yellow;}
+        
+        } */
+       
+          
+        @media (min-width: 640px) {
+            .container{
+                flex-direction: column;
+                background-color: yellow;
+            }
+            
+        }
+        @media (max-width: 640px) {
+            .dog{
+                flex-direction: row;
+                background-color: rgb(26, 91, 203);
+            }
+            
+        }
+
+
+
+
+    </style>
+
+
